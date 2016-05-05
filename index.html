@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aloha Apparel</title>
+
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="js/bxslider/jquery.bxslider.css" />
+  </head>
+  <body>
+    <header class="site-header container clearfix">
+        <div class="header1">
+          <img class="logo" src="assets/images/aloha-logo.svg" alt="Aloha Apparel Co." />
+        </div>
+        <div class="header2">
+          <img class="cart" src="assets/images/cart-icon.svg" alt="Shopping Cart" />
+          <span class="total-cart">0</span>
+        </div>
+        <ul class="nav-bar">
+          <li class="nav-list"><a href="#about">about</a></li>
+          <li class="nav-list"><a href="#shop">shop</a></li>
+          <li class="nav-list"><a href="#featured">featured</a></li>
+          <li class="nav-list"><a href="#updates">updates</a></li>
+        </ul>
+    </header>
+    <div class="pushdown"></div>
+    <section class="hero"> <!-- First BANNER -->
+        <div class="collection">
+          <h2 class="uppercase">New Collection</h2>
+          <h1>Spring/Summer 2016</h1>
+        </div>
+    </section>
+    <section class="container" id="about"> <!-- About Section -->
+        <div class="about">
+          <div class="center">
+            <span class="italics">Hand-Crafted</span><span class="bold"> Styles</span>
+          </div>
+          <p>Aloha Apparel Co. sells only the finest ready-to-travel
+             clothing. Browse our current selection of products or sign-up for updates below.</p>
+      </div>
+    </section>
+    <div class="line"></div><!-- LINE -->
+    <section class="categories" id="shop"> <!-- CATEGORIES -->
+              <a href="#" class="mens"><span>Men's</span></a>
+              <a href="#" class= "trends"><span>Trends</span></a>
+              <a href="#" class= "glasses"><span>Glasses</span></a>
+              <a href="#" class= "sale"><span>Sale</span> </a>
+              <a href="#" class="bags"><span>Bags</span> </a>
+              <a href="#" class="womens"><span>Women's</span></a>
+    </section>
+    <section class="container clearfix" id="featured"> <!-- Product Section -->
+      <div>
+        <div class="center prodpad">
+          <span class="italics">Most-Loved</span><span class="bold"> Products</span>
+        </div>
+          <ul class="prodmove bxslider">
+            <li class="product">
+              <img src="assets/images/stretch-knit-dress.jpg" alt="Stretch Knit Dress" />
+              <p class="uppercase">Dresses</p>
+              <a class="link" href="">Stretch Knit Dress</a>
+              <p>$169.00</p>
+              <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+              <img src="assets/images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt" />
+              <p class="uppercase">Shirts</p>
+              <a class="link" href="">Cotton Blue Shirt</a>
+              <p>$89.00</p>
+              <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="assets/images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" />
+                <p class="uppercase">Dresses</p>
+                <a class="link" href="">Checked Stretch Dress</a>
+                <p>$129.00</p>
+                <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="assets/images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" />
+                <p class="uppercase">Bags</p>
+                <a class="link" href="">Blue Hipster Backpack</a>
+                <p>$69.00</p>
+                <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="assets/images/demin-overall-shorts.jpg" alt="Demin Overall Shorts" />
+                <p class="uppercase">Denims</p>
+                <a class="link" href="">Denims Overall Shorts</a>
+                <p>$89.00</p>
+                <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="assets/images/pink-dotted-dress.jpg" alt="Pink Dotted Dress" />
+                <p class="uppercase">Dresses</p>
+                <a class="link" href="">Pink Dotted Dress</a>
+                <p>$99.00</p>
+                <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="assets/images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow T-Shirt" />
+                <p class="uppercase">Shirts</p>
+                <a class="link" href="">Yellow Cotton T-Shirt</a>
+                <p>$39.00</p>
+                <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+            <li class="product">
+                <img src="assets/images/blue-silk-dress.jpg" alt="Blue Silk Dress" />
+                <p class="uppercase">Dress</p>
+                <a class="link" href="">Blue Silk Dress</a>
+                <p>$119.00</p>
+                <button type="button" name="button" class="add-to-cart">Add to Cart</button>
+            </li>
+          </ul>
+      </div>
+    </section>
+    <section class="wave" id="updates"> <!-- Subscribe Section -->
+        <div class="container update">
+          <div class="center">
+            <span class="italics">Sign-up for</span><span class="bold"> Updates</span>
+          </div>
+          <p>Stay updated on our latest product releases, be first to find
+              out about upcoming sales, and get free style tips from our
+              blog. Unsubscribe at any time.</p>
+          <form id="overall-button" action="submit.php" method="post">
+            <input id="email" type="email" name="your_email" placeholder="Your Email"/>
+            <input type="submit" name="subscribe" value="Subscribe" id="subscribe"/>
+          </form>
+       </div>
+    </section>
+    <footer class="container">
+        <div class="foot-background">
+          <div class="footerinfo">
+            <p class="footright">
+              &copy; 2016 Aloha Apparel Co.
+              Powered by HTML and CSS.
+            </p>
+            <p class="footleft2">604-604-6040. <a href="mailto:info@alohaapparel.com"> info@alohaapparel.com</a>
+            </p>
+            <p class="footleft">
+                1490 W Broadway
+                Vancouver,BC,Canada
+            </p>
+            </div>
+            <ul class="socialmobile">
+              <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i><span class="socialnormal">Facebook</span></a></li>
+              <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i><span class="socialnormal">Twitter</span></a></li>
+              <li><a href=""><i class="fa fa-instagram" aria-hidden="true"></i><span class="socialnormal">Instagram</span></a></li>
+              <li><a href=""><i class="fa fa-pinterest" aria-hidden="true"></i><span class="socialnormal">Pinterest</span></a></li>
+              <li><a href=""><i class="fa fa-google-plus" aria-hidden="true"></i><span class="socialnormal">Google+</span></a></li>
+            </ul>
+        </div>
+          <!-- JavaScript Files (ALWAYS INCLUDE AT BOTTOM) -->
+          <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+          <script src="js/bxslider/jquery.bxslider.min.js"></script>
+          <script src="js/main.js"></script>
+    </footer>
+
+  </body>
+
+</html>
