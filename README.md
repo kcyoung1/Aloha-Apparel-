@@ -1,14 +1,13 @@
 <h1>Project 1 - Aloha Apparel</h1>
 <h2>Summary</h2>
-<p>Using website designs provided by our instructors, we re-created an e-commerce website using HTML, CSS, and jQuery scripts. The website was built using the mobile first approach, making it a responsive website. We added some special features, including a quantity badge that appeared by the shopping cart logo when a buy button is pressed, a product image scroller, a fixed navigation bar and smooth scrolling.</p>
+<p>For our first project, we re-created an e-commerce website using HTML, CSS, and jQuery scripts. The website was built as a responsive website using the mobile first approach. We added some special features, including a quantity badge that appeared by the shopping cart logo, a product image scroller, a fixed navigation bar and smooth scrolling.</p>
 
 <h2>Languages and tools used:</h2>
 <ul>
 <li>HTML</li>
-<li>CSS (with CSS reset styles)</li>
+<li>CSS (with a CSS reset styles, flexbox, and media queries)</li>
 <li>JavaScript</li>
 <li>jQuery (bxSlider, smooth scrolling, fixed header, DOM navigation)</li>
-<li>Flexbox</li>
 <li>Mobile first approach to design & coding (Responsive Web Design)</li>
 <li>Git</li>
 </ul>
