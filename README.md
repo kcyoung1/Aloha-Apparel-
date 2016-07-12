@@ -1,4 +1,5 @@
 # Project 1 - Aloha Apparel
+![p1-aloha](https://cloud.githubusercontent.com/assets/18318804/16755178/8f6698d4-47ae-11e6-9017-13fc2d15cd11.jpg)
 
 ## Summary
 For our first project, we re-created an e-commerce website using HTML, CSS, and jQuery scripts. The website was built as a responsive website using the mobile first approach. We added some special features, including a quantity badge that appeared by the shopping cart logo, a product image scroller, a fixed navigation bar and smooth scrolling.
